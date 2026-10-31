@@ -7,7 +7,7 @@ This is a collection of my favorite wallpapers. This install command below if fo
 sudo dnf install curl unzip -y
 mkdir -p ~/Pictures/wallpapers && \
 curl -L https://github.com/theamazingbman/wallpapers/archive/refs/heads/main.zip -o /tmp/wallpapers.zip && \
-unzip -o /tmp/wallpapers.zip -j -d ~/Pictures/wallpapers && \
+unzip -n /tmp/wallpapers.zip -j -d ~/Pictures/wallpapers && \
 rm /tmp/wallpapers.zip
 ```
 
