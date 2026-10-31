@@ -11,4 +11,4 @@ unzip -n /tmp/wallpapers.zip -j -d ~/Pictures/wallpapers && \
 rm /tmp/wallpapers.zip
 ```
 
-The command install the unzip tool if you don't already have it downloaded. Then it creates the directory, downloads the wallpapers and unzips them. Enjoy.
+The command install the unzip tool if you don't already have it downloaded. Then it creates the directory, downloads the wallpapers and unzips them. It will skip any wallpapers if you already have them installed.
